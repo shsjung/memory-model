@@ -1,3 +1,14 @@
+// -----------------------------------------------------------------------------
+// File Name: ram_two_async.sv
+// Description:
+//     An asynchronous two-port RAM module where the write and read ports
+//     operate on independent clocks. This module supports simultaneous write
+//     and read operations across different clock domains.
+//
+// Author: shsjung (github.com/shsjung)
+// Date Created: 2024-12-12
+// -----------------------------------------------------------------------------
+
 `define SIM_LOG
 
 module ram_two_async #(

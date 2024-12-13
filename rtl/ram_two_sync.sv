@@ -1,3 +1,14 @@
+// -----------------------------------------------------------------------------
+// File Name: ram_two_sync.sv
+// Description:
+//     A synchronous two-port RAM module where the write and read ports share
+//     a common clock. This module allows simultaneous read and write
+//     operations at different addresses.
+//
+// Author: shsjung (github.com/shsjung)
+// Date Created: 2024-12-12
+// -----------------------------------------------------------------------------
+
 `define SIM_LOG
 
 module ram_two_sync #(

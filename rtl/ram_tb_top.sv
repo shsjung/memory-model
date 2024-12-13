@@ -1,3 +1,13 @@
+// -----------------------------------------------------------------------------
+// File Name: ram_tb_top.sv
+// Description:
+//     Top module to test the ram_single, ram_two_sync, and ram_two_async
+//     modules.
+//
+// Author: shsjung (github.com/shsjung)
+// Date Created: 2024-12-12
+// -----------------------------------------------------------------------------
+
 module ram_tb_top #(
     parameter  int Width = 32,
     parameter  int Depth = 256,

@@ -1,3 +1,13 @@
+// -----------------------------------------------------------------------------
+// File Name: tb.cpp
+// Description:
+//     Testbench to verify the functionality of the ram_single, ram_two_sync,
+//     and ram_two_async modules.
+//
+// Author: shsjung (github.com/shsjung)
+// Date Created: 2024-12-12
+// -----------------------------------------------------------------------------
+
 #include "Vram_tb_top.h"
 #include "verilated.h"
 #include "verilated_vcd_c.h"

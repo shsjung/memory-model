@@ -1,3 +1,13 @@
+// -----------------------------------------------------------------------------
+// File Name: ram_single.sv
+// Description:
+//     A parameterizable single-port RAM module. This module supports
+//     synchronous read and write operations.
+//
+// Author: shsjung (github.com/shsjung)
+// Date Created: 2024-12-12
+// -----------------------------------------------------------------------------
+
 `define SIM_LOG
 
 module ram_single #(
