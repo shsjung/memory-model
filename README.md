@@ -68,7 +68,7 @@ Below are example waveforms generated from the testbench simulations. These wave
 
    - **Case 1:** Write clock is faster than read clock.
 
-     ![Two-port Asynchronous RAM Waveform 1](https://svg.wavedrom.com/github/shsjung/memory-model/main/wavedrom/ram_two_async_1.json)
+     ![Two-port Asynchronous RAM Waveform 1](https://svg.wavedrom.com/github/shsjung/memory-model/main/wavedrom/ram_two_async_0.json)
 
    - **Case 2:** Write clock is slower than read clock.
 
