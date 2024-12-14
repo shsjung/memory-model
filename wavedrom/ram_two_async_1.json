@@ -1,0 +1,10 @@
+{signal: [
+  {name: 'wclk_i',  wave: 'p.................', period: 2},
+  {name: 'we_i',    wave: '0101...0..........', period: 2},
+  {name: 'waddr_i', wave: 'x3x3333x..........', period: 2, data: [0, 2, 4, 3, 5]},
+  {name: 'wdata_i', wave: 'x5x5555x..........', period: 2, data: ['D0', 'D2', 'D4', 'D3', 'D5']},
+  {name: 'rclk_i',  wave: 'p...........', period: 3},
+  {name: 're_i',    wave: '0.10101..0..', period: 3},
+  {name: 'raddr_i', wave: 'x.3x3x333x..', period: 3, data: [0, 2, 3, 4, 5]},
+  {name: 'rdata_o', wave: 'x..4x4x444x.', period: 3, data: ['D0', 'D2', 'D3', 'D4', 'D5']}
+]}

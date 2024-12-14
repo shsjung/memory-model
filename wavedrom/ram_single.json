@@ -1,0 +1,8 @@
+{signal: [
+  {name: 'clk_i',   wave: 'p...........'},
+  {name: 'we_i',    wave: '0101..0.....'},
+  {name: 're_i',    wave: '0.10..1..0..'},
+  {name: 'addr_i',  wave: 'x33333333x..', data: [0, 0, 2, 4, 3, 2, 3, 4]},
+  {name: 'wdata_i', wave: 'x5x555x.....', data: ['D0', 'D2', 'D4', 'D3']},
+  {name: 'rdata_o', wave: 'x..4x..444x.', data: ['D0', 'D2', 'D3', 'D4']}
+]}
